@@ -1,0 +1,21 @@
+Package: TTXForecasting
+Type: Package
+Title: Functions for Pre-Processing and Forecasting TTX data
+Version: 0.1.0
+Author: Nicholas Marey
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Provides numerous functions for processing and forecasting
+    TTX revenue.
+Depends:
+    R (>= 3.6.0)
+Imports:
+    dplyr,
+    forecast,
+    ggplot2,
+    lubridate,
+    stringr,
+    xts,
+    zoo
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
